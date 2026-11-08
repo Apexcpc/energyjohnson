@@ -69,7 +69,6 @@ a { color: inherit; text-decoration: none; }
 .bali { background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=82'); }
 .finland { background-image:url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=82'); }
 .moritz { background-image:url('https://images.unsplash.com/photo-1517299321609-52687d1bc55a?auto=format&fit=crop&w=800&q=82'); }
-.retreat-place.moritz { background-image:url('assets/st-moritz-ski-toast.png'); background-position:center 48%; }
 .oman { background-image:url('https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=800&q=82'); }
 .closing { text-align:center; padding:105px 20px 120px; background:#e9e7df; border-top:1px solid rgba(185,167,126,.34); }
 .closing h2 { margin:18px 0; }
@@ -124,7 +123,7 @@ a { color: inherit; text-decoration: none; }
 .retreat-place { height:280px; padding:18px; color:white; display:flex; flex-direction:column; justify-content:end; position:relative; background-size:cover; background-position:center; }
 .retreat-place>* { position:relative; }
 .retreat-community { display:grid; grid-template-columns:1fr 1fr; min-height:480px; background:#e8e6de; }
-.community-image { background:url('https://images.unsplash.com/photo-1771365155374-0a497c4c1e7e?auto=format&fit=crop&w=1600&q=85') center/cover; min-height:480px; }
+.community-image { background:url('assets/st-moritz-ski-toast.png') center/cover; min-height:480px; }
 .community-copy { align-self:center; padding:70px 12%; }
 .community-copy h2,.relocation-priorities h2 { font:400 clamp(38px,4vw,50px)/1.2 var(--serif); letter-spacing:-.025em; margin:20px 0; }
 .community-copy p:not(.eyebrow),.relocation-priorities article>p:last-child { color:var(--muted); font-size:12px; line-height:2; }
