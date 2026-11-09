@@ -7,7 +7,7 @@ enquiryForm?.addEventListener('submit',(event)=>{
   event.preventDefault();
   const values=new FormData(enquiryForm);
   const message=[
-    "Hi, I'm interested in Energy Johnson's services.",
+    "Hi Energy Johnson ✨, I'm interested in your services and would love to hear how you could help make my plans extra special.",
     `Name: ${values.get('Name')||''}`,
     `Email: ${values.get('Email')||''}`,
     `Service: ${values.get('Interest')||''}`,
