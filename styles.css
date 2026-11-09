@@ -229,3 +229,15 @@ a { color: inherit; text-decoration: none; }
   .package-section h2 { font-size:41px; }
 }
 
+
+.faq-section { padding:88px 12vw; background:var(--ivory); }
+.faq-section .section-heading { margin-bottom:35px; }
+.faq-list { max-width:900px; margin:0 auto 25px; }
+.faq-list details { border-top:1px solid rgba(185,167,126,.6); padding:19px 0; }
+.faq-list details:last-child { border-bottom:1px solid rgba(185,167,126,.6); }
+.faq-list summary { cursor:pointer; list-style:none; font:400 20px/1.4 var(--serif); }
+.faq-list summary::-webkit-details-marker { display:none; }
+.faq-list summary:after { content:'+'; float:right; color:var(--champagne); font:400 22px var(--sans); }
+.faq-list details[open] summary:after { content:'−'; }
+.faq-list details p { max-width:740px; color:var(--muted); font-size:12px; line-height:1.9; }
+@media(max-width:700px) { .faq-section { padding:65px 8%; } .faq-section .section-heading { display:block; } }
