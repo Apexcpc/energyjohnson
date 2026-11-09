@@ -241,3 +241,13 @@ a { color: inherit; text-decoration: none; }
 .faq-list details[open] summary:after { content:'−'; }
 .faq-list details p { max-width:740px; color:var(--muted); font-size:12px; line-height:1.9; }
 @media(max-width:700px) { .faq-section { padding:65px 8%; } .faq-section .section-heading { display:block; } }
+
+/* Client review invitation */
+.reviews-section { padding:94px 12vw; display:grid; grid-template-columns:1.3fr .7fr; gap:55px; align-items:center; background:#e9e6de; border-top:1px solid rgba(185,167,126,.35); }
+.reviews-copy { max-width:660px; }
+.reviews-copy h2 { font:400 clamp(40px,5vw,58px)/1.18 var(--serif); letter-spacing:-.025em; margin:18px 0; }
+.reviews-copy h2 em { font-weight:400; }
+.reviews-copy>p:not(.eyebrow) { max-width:560px; color:var(--muted); font-size:12px; line-height:2; margin:0 0 24px; }
+.reviews-mark { min-height:200px; display:flex; flex-direction:column; align-items:center; justify-content:center; border:1px solid rgba(185,167,126,.65); color:#8e846d; font:400 11px/1.6 var(--sans); letter-spacing:.26em; }
+.reviews-mark i { font-style:normal; font-size:22px; margin-top:12px; color:var(--champagne); }
+@media(max-width:700px) { .reviews-section { grid-template-columns:1fr; padding:68px 8%; gap:28px; } .reviews-mark { min-height:135px; } }
