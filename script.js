@@ -12,6 +12,6 @@ enquiryForm?.addEventListener('submit',(event)=>{
     `Email: ${values.get('Email')||''}`,
     `Service: ${values.get('Interest')||''}`,
     `Message: ${values.get('Message')||''}`
-  ].join('\\n');
+  ].join(String.fromCharCode(10));
   window.location.assign(`https://wa.me/971528818032?text=${encodeURIComponent(message)}`);
 });
