@@ -275,3 +275,19 @@ a { color: inherit; text-decoration: none; }
 .welcome-grid p { color:var(--muted); font-size:12px; line-height:1.9; margin:0; }
 @media(max-width:900px) { .welcome-grid { gap:18px; } }
 @media(max-width:650px) { .dubai-welcome { padding:65px 8%; } .welcome-grid { grid-template-columns:1fr; gap:20px; } }
+
+/* Curated holiday planning */
+.holiday-edit { padding:92px 12vw 100px; background:#eef4f6; }
+.holiday-intro { max-width:680px; margin:0 auto 38px; text-align:center; }
+.holiday-intro h2 { font:400 clamp(40px,5vw,60px)/1.2 var(--serif); letter-spacing:-.025em; margin:18px 0; }
+.holiday-intro h2 em { font-weight:400; }
+.holiday-intro>p:last-child { color:var(--muted); font-size:12px; line-height:2; }
+.holiday-options { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:28px; }
+.holiday-options article { min-height:190px; display:flex; flex-direction:column; justify-content:space-between; padding:20px; background:#fff; border:1px solid var(--line); }
+.holiday-options article>span { color:var(--green); font-size:8px; letter-spacing:.16em; }
+.holiday-options h3 { font:400 23px/1.3 var(--serif); margin:0; }
+.holiday-options .holiday-more { background:#183d4a; color:#fff; }
+.holiday-options .holiday-more>span { color:#c1d6dd; }
+.holiday-edit>.text-link { display:block; width:max-content; margin:0 auto; }
+@media(max-width:800px) { .holiday-edit { padding:72px 8%; } .holiday-options { grid-template-columns:1fr 1fr; } }
+@media(max-width:420px) { .holiday-options article { min-height:155px; padding:15px; } .holiday-options h3 { font-size:19px; } }
