@@ -291,13 +291,3 @@ a { color: inherit; text-decoration: none; }
 .holiday-edit>.text-link { display:block; width:max-content; margin:0 auto; }
 @media(max-width:800px) { .holiday-edit { padding:72px 8%; } .holiday-options { grid-template-columns:1fr 1fr; } }
 @media(max-width:420px) { .holiday-options article { min-height:155px; padding:15px; } .holiday-options h3 { font-size:19px; } }
-
-/* Yacht moments video */
-.yacht-moments { padding:88px 12vw; display:grid; grid-template-columns:1fr .8fr; gap:80px; align-items:center; background:#fff; }
-.yacht-moments-copy { max-width:510px; }
-.yacht-moments-copy h2 { font:400 clamp(40px,5vw,58px)/1.2 var(--serif); letter-spacing:-.025em; margin:18px 0; }
-.yacht-moments-copy h2 em { font-weight:400; }
-.yacht-moments-copy>p:last-child { color:var(--muted); font-size:12px; line-height:2; }
-.yacht-video { width:min(100%,390px); justify-self:center; aspect-ratio:9/16; overflow:hidden; background:#183d4a; }
-.yacht-video iframe { display:block; width:100%; height:100%; border:0; }
-@media(max-width:800px) { .yacht-moments { padding:72px 8%; grid-template-columns:1fr; gap:30px; } .yacht-video { width:min(100%,330px); } }
